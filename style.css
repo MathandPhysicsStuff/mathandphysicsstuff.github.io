@@ -1,0 +1,17 @@
+
+body {
+    background: linear-gradient(to top left, rgb(16, 16, 24), rgb(32, 32, 40));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}

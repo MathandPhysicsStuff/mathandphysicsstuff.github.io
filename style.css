@@ -6,6 +6,10 @@ body {
     color: white;
 }
 
+img {
+    margin: 5px;
+}
+
 h1 {
     text-align: center;
 }
@@ -28,10 +32,19 @@ h3 {
     display: grid;
     grid-template-columns: repeat(4, 200px);
     grid-gap: 32px;
+    text-align: center;
 }
 
 .grid-item {
 
+}
+
+.box-1 {
+    width: 400;
+    height: 400;
+    margin: 20px left right;
+
+    float: right;
 }
 
 .center {

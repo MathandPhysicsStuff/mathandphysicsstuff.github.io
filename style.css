@@ -28,6 +28,24 @@ h3 {
     text-align: left;
 }
 
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    
+    height: 100%;
+    width: 100%;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 200px);
@@ -55,3 +73,11 @@ h3 {
     font-size: 24px;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
